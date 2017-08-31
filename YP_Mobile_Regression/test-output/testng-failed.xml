@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="lcmobile_regression.Mobile_R1_VDL_ListingPage">
+        <methods>
+          <include name="TC002_SortOption"/>
+          <include name="TC007_ListingVerifiedMark"/>
+          <include name="Mobile_VDL_Listing_Callaction"/>
+          <include name="TC001_Filterby"/>
+          <include name="TC005_ListingProfile_ScoreMatch"/>
+          <include name="afterclas"/>
+          <include name="TC004_Getquote"/>
+          <include name="before"/>
+          <include name="TC003_Listing_SavetoPhone"/>
+          <include name="TC006_ListingProfile_Review"/>
+        </methods>
+      </class> <!-- lcmobile_regression.Mobile_R1_VDL_ListingPage -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

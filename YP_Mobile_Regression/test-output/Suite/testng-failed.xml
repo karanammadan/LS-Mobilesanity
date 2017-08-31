@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Mobile_R1_VDL_ListingPage(failed)">
+    <classes>
+      <class name="lcmobile_regression.Mobile_R1_VDL_Profile">
+        <methods>
+          <include name="before"/>
+        </methods>
+      </class> <!-- lcmobile_regression.Mobile_R1_VDL_Profile -->
+      <class name="lcmobile_regression.Mobile_R2_VDL_Profile">
+        <methods>
+          <include name="before"/>
+        </methods>
+      </class> <!-- lcmobile_regression.Mobile_R2_VDL_Profile -->
+      <class name="lcmobile_regression.Mobile_R1_VDL_ListingPage">
+        <methods>
+          <include name="before"/>
+          <include name="TC003_Listing_SavetoPhone"/>
+        </methods>
+      </class> <!-- lcmobile_regression.Mobile_R1_VDL_ListingPage -->
+      <class name="lcmobile_regression.Mobile_R2_VDL_ListingPage">
+        <methods>
+          <include name="openURL"/>
+        </methods>
+      </class> <!-- lcmobile_regression.Mobile_R2_VDL_ListingPage -->
+    </classes>
+  </test> <!-- Mobile_R1_VDL_ListingPage(failed) -->
+  <test name="Mobile_R2_VDL_ListingPage(failed)">
+    <classes>
+      <class name="lcmobile_regression.Mobile_R1_VDL_Profile">
+        <methods>
+          <include name="before"/>
+        </methods>
+      </class> <!-- lcmobile_regression.Mobile_R1_VDL_Profile -->
+      <class name="lcmobile_regression.Mobile_R2_VDL_Profile">
+        <methods>
+          <include name="before"/>
+        </methods>
+      </class> <!-- lcmobile_regression.Mobile_R2_VDL_Profile -->
+      <class name="lcmobile_regression.Mobile_R1_VDL_ListingPage">
+        <methods>
+          <include name="before"/>
+        </methods>
+      </class> <!-- lcmobile_regression.Mobile_R1_VDL_ListingPage -->
+      <class name="lcmobile_regression.Mobile_R2_VDL_ListingPage">
+        <methods>
+          <include name="Mobile_VDL_Listing_ChatwithUsimage"/>
+          <include name="Mobile_VDL_Listing_Shortlist"/>
+          <include name="Mobile_VDL_Listing_Listcard_TCApply_"/>
+          <include name="Mobile_VDL_Listing_Morelink_Photolink_Nextpage_Listcard"/>
+          <include name="Mobile_VDL_Listing_Category_Grandparentpage"/>
+          <include name="Mobile_VDL_Listing_PaidBadge"/>
+          <include name="Mobile_VDL_Listing_WhyFillthisForm_Navigations"/>
+          <include name="Mobile_VDL_Listing_BrandFilter_ResetFilter"/>
+          <include name="Mobile_VDL_Listing_ProfileLink"/>
+          <include name="Mobile_VDL_Listing_Citylink_Allcitypage"/>
+          <include name="Mobile_VDL_Listing_Tollfreeimage"/>
+          <include name="openURL"/>
+        </methods>
+      </class> <!-- lcmobile_regression.Mobile_R2_VDL_ListingPage -->
+    </classes>
+  </test> <!-- Mobile_R2_VDL_ListingPage(failed) -->
+  <test name="Mobile_R1_VDL_Profile(failed)">
+    <classes>
+      <class name="lcmobile_regression.Mobile_R1_VDL_Profile">
+        <methods>
+          <include name="TC003_VerifySymbol"/>
+          <include name="TC002_SaveToPhone"/>
+          <include name="TC001_Profile_Getquote"/>
+          <include name="before"/>
+        </methods>
+      </class> <!-- lcmobile_regression.Mobile_R1_VDL_Profile -->
+      <class name="lcmobile_regression.Mobile_R2_VDL_Profile">
+        <methods>
+          <include name="before"/>
+        </methods>
+      </class> <!-- lcmobile_regression.Mobile_R2_VDL_Profile -->
+      <class name="lcmobile_regression.Mobile_R1_VDL_ListingPage">
+        <methods>
+          <include name="before"/>
+        </methods>
+      </class> <!-- lcmobile_regression.Mobile_R1_VDL_ListingPage -->
+      <class name="lcmobile_regression.Mobile_R2_VDL_ListingPage">
+        <methods>
+          <include name="openURL"/>
+        </methods>
+      </class> <!-- lcmobile_regression.Mobile_R2_VDL_ListingPage -->
+    </classes>
+  </test> <!-- Mobile_R1_VDL_Profile(failed) -->
+  <test name="Mobile_R2_VDL_Profile(failed)">
+    <classes>
+      <class name="lcmobile_regression.Mobile_R1_VDL_Profile">
+        <methods>
+          <include name="before"/>
+        </methods>
+      </class> <!-- lcmobile_regression.Mobile_R1_VDL_Profile -->
+      <class name="lcmobile_regression.Mobile_R2_VDL_Profile">
+        <methods>
+          <include name="Mobile_VDL_Profile_Regression2_ViewMoreReviews"/>
+          <include name="Mobile_VDL_Profile_Regression2_ReviewHelpfulBtn"/>
+          <include name="Mobile_VDL_Profile_Regression2_ReviewTab"/>
+          <include name="Mobile_VDL_Profile_Regression2_ScoreLink"/>
+          <include name="before"/>
+          <include name="Mobile_VDL_Profile_Regression2_OwnThisListing"/>
+          <include name="Mobile_VDL_Profile_Regression2_SulAppBanner"/>
+          <include name="Mobile_VDL_Profile_Regression2_CallIcon"/>
+          <include name="Mobile_VDL_Profile_Regression2_Listcard_TCApply"/>
+          <include name="Mobile_VDL_Profile_Regression2_BVNIcon"/>
+          <include name="Mobile_VDL_Profile__Tollfreeimage"/>
+          <include name="Mobile_VDL_Profile_Regression2_ServicesMore"/>
+        </methods>
+      </class> <!-- lcmobile_regression.Mobile_R2_VDL_Profile -->
+      <class name="lcmobile_regression.Mobile_R1_VDL_ListingPage">
+        <methods>
+          <include name="before"/>
+        </methods>
+      </class> <!-- lcmobile_regression.Mobile_R1_VDL_ListingPage -->
+      <class name="lcmobile_regression.Mobile_R2_VDL_ListingPage">
+        <methods>
+          <include name="openURL"/>
+        </methods>
+      </class> <!-- lcmobile_regression.Mobile_R2_VDL_ListingPage -->
+    </classes>
+  </test> <!-- Mobile_R2_VDL_Profile(failed) -->
+</suite> <!-- Failed suite [Suite] -->

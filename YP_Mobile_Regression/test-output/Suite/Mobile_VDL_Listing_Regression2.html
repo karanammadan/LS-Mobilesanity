@@ -1,0 +1,273 @@
+<html>
+<head>
+<title>TestNG:  Mobile_VDL_Listing_Regression2</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Mobile_VDL_Listing_Regression2</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>10/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Mar 02 15:02:50 IST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>598 seconds (598066 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='lcmobile_regression.Mobile_VDL_Listing_Regression2.Mobile_VDL_Listing_Citylink_Allcitypage()'><b>Mobile_VDL_Listing_Citylink_Allcitypage</b><br>Test class: lcmobile_regression.Mobile_VDL_Listing_Regression2<br/>
+<a href="#Output-1625252058" onClick='toggleBox("Output-1625252058", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1625252058" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1625252058">
+http://www.sulekha.com/ac-services/all-cities<br/>
+Read more link not working fine<br/>
+Clicked blog : Patna<br/>
+Navigated page title : AC Service Centres, Split & Window Air Conditioner Services | Sulekha<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.fail(Assert.java:95)
+	at lcmobile_regression.Mobile_VDL_Listing_Regression2.Mobile_VDL_Listing_Citylink_Allcitypage(Mobile_VDL_Listing_Regression2.java:446)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1625252058", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1625252058'><pre>java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.fail(Assert.java:95)
+	at lcmobile_regression.Mobile_VDL_Listing_Regression2.Mobile_VDL_Listing_Citylink_Allcitypage(Mobile_VDL_Listing_Regression2.java:446)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+</pre></div></td>
+<td>21</td>
+<td>lcmobile_regression.Mobile_VDL_Listing_Regression2@6ea6d14e</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='lcmobile_regression.Mobile_VDL_Listing_Regression2.Mobile_VDL_Listing_BrandFilter_ResetFilter()'><b>Mobile_VDL_Listing_BrandFilter_ResetFilter</b><br>Test class: lcmobile_regression.Mobile_VDL_Listing_Regression2<br/>
+<a href="#Output-1165791284" onClick='toggleBox("Output-1165791284", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1165791284" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1165791284">
+Before filter 1st busines : JS Home Services, Saidapet<br/>
+After filter 1st busines : Mist Home, Karappakkam<br/>
+Brand filter  working fine <br/>
+Reset filter  working<br/>
+</div>
+</td>
+<td></td>
+<td>74</td>
+<td>lcmobile_regression.Mobile_VDL_Listing_Regression2@6ea6d14e</td></tr>
+<tr>
+<td title='lcmobile_regression.Mobile_VDL_Listing_Regression2.Mobile_VDL_Listing_Category_Grandparentpage()'><b>Mobile_VDL_Listing_Category_Grandparentpage</b><br>Test class: lcmobile_regression.Mobile_VDL_Listing_Regression2<br/>
+<a href="#Output-41031373" onClick='toggleBox("Output-41031373", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-41031373" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-41031373">
+http://www.sulekha.com/business-services<br/>
+Category  link is navigating proper page<br/>
+Clicked Category : AC Dealers<br/>
+Navigated page title : AC Dealers, Air Conditioner for Sales | Sulekha<br/>
+</div>
+</td>
+<td></td>
+<td>38</td>
+<td>lcmobile_regression.Mobile_VDL_Listing_Regression2@6ea6d14e</td></tr>
+<tr>
+<td title='lcmobile_regression.Mobile_VDL_Listing_Regression2.Mobile_VDL_Listing_ChatwithUsimage()'><b>Mobile_VDL_Listing_ChatwithUsimage</b><br>Test class: lcmobile_regression.Mobile_VDL_Listing_Regression2<br/>
+<a href="#Output-24293395" onClick='toggleBox("Output-24293395", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-24293395" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-24293395">
+http://www.sulekha.com/ac-services/chennai<br/>
+Chat with Us image is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>23</td>
+<td>lcmobile_regression.Mobile_VDL_Listing_Regression2@6ea6d14e</td></tr>
+<tr>
+<td title='lcmobile_regression.Mobile_VDL_Listing_Regression2.Mobile_VDL_Listing_Listcard_TCApply_()'><b>Mobile_VDL_Listing_Listcard_TCApply_</b><br>Test class: lcmobile_regression.Mobile_VDL_Listing_Regression2<br/>
+<a href="#Output-1810923540" onClick='toggleBox("Output-1810923540", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1810923540" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1810923540">
+http://www.sulekha.com/ac-dealers/chennai<br/>
+Landed in proper page and page title is: Terms & Conditions Sulekha.com: For all your local needs<br/>
+Landed in proper page from list card and page title is: Terms & Conditions Sulekha.com: For all your local needs<br/>
+</div>
+</td>
+<td></td>
+<td>28</td>
+<td>lcmobile_regression.Mobile_VDL_Listing_Regression2@6ea6d14e</td></tr>
+<tr>
+<td title='lcmobile_regression.Mobile_VDL_Listing_Regression2.Mobile_VDL_Listing_Morelink_Photolink_Nextpage_Listcard()'><b>Mobile_VDL_Listing_Morelink_Photolink_Nextpage_Listcard</b><br>Test class: lcmobile_regression.Mobile_VDL_Listing_Regression2<br/>
+<a href="#Output-1845623216" onClick='toggleBox("Output-1845623216", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1845623216" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1845623216">
+About block More and less : Pass<br/>
+Photo image navigation is fine<br/>
+Photos link navigation is failed<br/>
+Next page button is pass<br/>
+Previous page button is pass<br/>
+</div>
+</td>
+<td></td>
+<td>58</td>
+<td>lcmobile_regression.Mobile_VDL_Listing_Regression2@6ea6d14e</td></tr>
+<tr>
+<td title='lcmobile_regression.Mobile_VDL_Listing_Regression2.Mobile_VDL_Listing_PaidBadge()'><b>Mobile_VDL_Listing_PaidBadge</b><br>Test class: lcmobile_regression.Mobile_VDL_Listing_Regression2<br/>
+<a href="#Output-1424698224" onClick='toggleBox("Output-1424698224", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1424698224" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1424698224">
+http://www.sulekha.com/ac-services/chennai<br/>
+Paid badge is  displayed<br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>lcmobile_regression.Mobile_VDL_Listing_Regression2@6ea6d14e</td></tr>
+<tr>
+<td title='lcmobile_regression.Mobile_VDL_Listing_Regression2.Mobile_VDL_Listing_ProfileLink()'><b>Mobile_VDL_Listing_ProfileLink</b><br>Test class: lcmobile_regression.Mobile_VDL_Listing_Regression2<br/>
+<a href="#Output-807328355" onClick='toggleBox("Output-807328355", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-807328355" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-807328355">
+http://www.sulekha.com/ac-services/chennai<br/>
+Profile page navigaiton is sucess<br/>
+</div>
+</td>
+<td></td>
+<td>17</td>
+<td>lcmobile_regression.Mobile_VDL_Listing_Regression2@6ea6d14e</td></tr>
+<tr>
+<td title='lcmobile_regression.Mobile_VDL_Listing_Regression2.Mobile_VDL_Listing_Shortlist()'><b>Mobile_VDL_Listing_Shortlist</b><br>Test class: lcmobile_regression.Mobile_VDL_Listing_Regression2<br/>
+<a href="#Output-297490204" onClick='toggleBox("Output-297490204", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-297490204" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-297490204">
+http://www.sulekha.com/pest-control-services/ypcity<br/>
+Shortlist sucessfull<br/>
+</div>
+</td>
+<td></td>
+<td>141</td>
+<td>lcmobile_regression.Mobile_VDL_Listing_Regression2@6ea6d14e</td></tr>
+<tr>
+<td title='lcmobile_regression.Mobile_VDL_Listing_Regression2.Mobile_VDL_Listing_Tollfreeimage()'><b>Mobile_VDL_Listing_Tollfreeimage</b><br>Test class: lcmobile_regression.Mobile_VDL_Listing_Regression2<br/>
+<a href="#Output-1003693033" onClick='toggleBox("Output-1003693033", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1003693033" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1003693033">
+http://www.sulekha.com/ac-services/chennai<br/>
+Tollfreeimage block working fine<br/>
+</div>
+</td>
+<td></td>
+<td>17</td>
+<td>lcmobile_regression.Mobile_VDL_Listing_Regression2@6ea6d14e</td></tr>
+<tr>
+<td title='lcmobile_regression.Mobile_VDL_Listing_Regression2.Mobile_VDL_Listing_WhyFillthisForm_Navigations()'><b>Mobile_VDL_Listing_WhyFillthisForm_Navigations</b><br>Test class: lcmobile_regression.Mobile_VDL_Listing_Regression2<br/>
+<a href="#Output-1090541608" onClick='toggleBox("Output-1090541608", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1090541608" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1090541608">
+http://www.sulekha.com/ac-services/chennai<br/>
+Navigation  working fine<br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>lcmobile_regression.Mobile_VDL_Listing_Regression2@6ea6d14e</td></tr>
+</table><p>
+</body>
+</html>

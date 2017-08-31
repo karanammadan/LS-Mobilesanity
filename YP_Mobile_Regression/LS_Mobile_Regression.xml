@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false"> 
+ <test name="Mobile_R1_VDL_ListingPage" preserve-order="true">
+		<classes>
+			<class name="lcmobile_regression.Mobile_R1_VDL_ListingPage">				
+			</class>
+		</classes>
+	</test> 	   
+	 <test name="Mobile_R2_VDL_ListingPage">
+		<classes>
+			<class name="lcmobile_regression.Mobile_R2_VDL_ListingPage">				
+			</class>
+		</classes>
+	</test>	
+		<test name="Mobile_R1_VDL_Profile">
+		<classes>
+			<class name="lcmobile_regression.Mobile_R1_VDL_Profile">				
+			</class>
+		</classes>
+	 </test>		
+          <test name="Mobile_R2_VDL_Profile">
+		<classes>
+			<class name="lcmobile_regression.Mobile_R2_VDL_Profile">				
+			</class>
+		</classes>
+	</test>		
+      <!--  <test name="MDLD_with_Locality">
+		<classes>
+			<class name="lcf_Faces.MDLD_with_Locality">				
+			</class>
+		</classes>
+	</test>		
+    <test name="MDLD_Attribute_Page">
+		<classes>
+			<class name="lcf_Faces.MDLD_Attribute_Page">				
+			</class>
+		</classes>
+	</test>	
+	
+	 <test name="MDLD_Attribute_Locality_Page">
+		<classes>
+			<class name="lcf_Faces.MDLD_Attribute_Locality_Page">				
+			</class>
+		</classes>
+	</test>	
+	<test name="MDLD_Brand_Locality_U2B">
+		<classes>
+			<class name="lcf_Faces.MDLD_Brand_Locality_U2B">				
+			</class>
+		</classes>
+	</test>
+	<test name="MDLD_Brand_Locality_B2U">
+		<classes>
+			<class name="lcf_Faces.MDLD_Brand_Locality_B2U">				
+			</class>
+		</classes>
+	</test>	
+	
+	<test name="MDLD_Listing_Page_Getquote">
+		<classes>
+			<class name="lcf_Faces.MDLD_Listing_Page_Getquote">				
+			</class>
+		</classes>
+	</test>	
+		<test name="MDLD_B2U_Locality_LCF">
+		<classes>
+			<class name="lcf_Faces.MDLD_B2U_Locality_LCF">				
+			</class>
+		</classes>
+	</test>	
+	<test name="MDLD_U2B_Locality_LCF">
+		<classes>
+			<class name="lcf_Faces.MDLD_U2B_Locality_LCF">				
+			</class>
+		</classes>
+	</test>	
+	 <test name="MDLD_Need_Page">
+		<classes>
+			<class name="lcf_Faces.MDLD_Need_Page">				
+			</class>
+		</classes>
+	</test>		
+	 	<test name="MDLD_Profile_Free_GetqouteLCF">
+		<classes>
+			<class name="lcf_Faces.MDLD_Profile_Free_GetqouteLCF">				
+			</class>
+		</classes>
+	</test>	
+	 	 <test name="MDLD_Profile_Paid_Getquote">
+		<classes>
+			<class name="lcf_Faces.MDLD_Profile_Paid_Getquote">				
+			</class>
+		</classes>
+	</test>			
+	 <test name="MDLD_Standalone_LCF">
+		<classes>
+			<class name="lcf_Faces.MDLD_Standalone_LCF">				
+			</class>
+		</classes>
+	</test>				
+	<test name="SDLD_Attribute_Locality_Page">
+		<classes>
+			<class name="lcf_Faces.SDLD_Attribute_Locality_Page">				
+			</class>
+		</classes>
+	</test>		
+	<test name="SDLD_Aattribute_Page">
+		<classes>
+			<class name="lcf_Faces.SDLD_Attribute_Page">				
+			</class>
+		</classes>
+	</test>		
+	<test name="SDLD_AddInfo_MandatoryField">
+		<classes>
+			<class name="lcf_Faces.SDLD_AddInfo_MandatoryField">				
+			</class>
+		</classes>
+	</test>	
+	<test name="SDLD_B2U_Locality_LCF">
+		<classes>
+			<class name="lcf_Faces.SDLD_B2U_Locality_LCF">				
+			</class>
+		</classes>
+	</test>	
+	<test name="SDLD_Listing_Page_Getquote">
+		<classes>
+			<class name="lcf_Faces.SDLD_Listing_Page_Getquote">				
+			</class>
+		</classes>
+	</test>		
+	<test name="SDLD_Paid_Profile_Getquote">
+		<classes>
+			<class name="lcf_Faces.SDLD_Paid_Profile_Getquote">				
+			</class>
+		</classes>
+	</test>		
+	<test name="SDLD_Free_Profile_LCF">
+		<classes>
+			<class name="lcf_Faces.SDLD_Free_Profile_LCF">				
+			</class>
+		</classes>
+	</test>	
+	<test name="SDLD_SecondaryLCF">
+		<classes>
+			<class name="lcf_Faces.SDLD_SecondaryLCF">				
+			</class>
+		</classes>
+	</test>	
+<test name="SDLD_Standalone_LCF">
+		<classes>
+			<class name="lcf_Faces.SDLD_Standalone_LCF">				
+			</class>
+		</classes>
+	</test>
+	<test name="SDLD_Subcategory_Page">
+		<classes>
+			<class name="lcf_Faces.SDLD_Subcategory_Page">				
+			</class>
+		</classes>
+	</test>	
+ <test name="SDLD_U2B_MultiLocality">
+		<classes>
+			<class name="lcf_Faces.SDLD_U2B_MultiLocality">				
+			</class>
+		</classes>
+	</test>		
+ <test name="SDLD_With_Locality"> 
+		<classes>
+			<class name="lcf_Faces.SDLD_With_Locality">				
+			</class>
+		</classes>
+	</test>	
+	
+	<test name="SDLD_Without_Type">
+		<classes>
+			<class name="lcf_Faces.SDLD_Without_Type">				
+			</class>
+		</classes>
+	</test>		
+		<test name="SEM_MDLD_Page">
+		<classes>
+			<class name="lcf_Faces.SEM_MDLD_Page">				
+			</class>
+		</classes>
+	</test>	
+	
+	<test name="MDLD_SEM_Mandatory">
+		<classes>
+			<class name="lcf_Faces.MDLD_SEM_Mandatory">				
+			</class>
+		</classes>
+	</test>
+	<test name="SDLD_SEMpage">
+		<classes>
+			<class name="lcf_Faces.SDLD_SEMpage">				
+			</class>
+		</classes>
+	</test>	
+		<test name="SDLD_SEM_Mandatory">
+		<classes>
+			<class name="lcf_Faces.SDLD_SEM_Mandatory">				
+			</class>
+		</classes>
+	</test>		
+	<test name="PushLCF">
+		<classes>
+			<class name="lcf_Faces.PushLCF">				
+			</class>
+		</classes>
+	</test>	
+     <test name="Additional_info_field_mandatory_LCF">
+		<classes>
+			<class name="lcf_Faces.Additional_info_field_mandatory_LCF">				
+			</class>
+		</classes>
+	</test>	     -->
+	</suite>
