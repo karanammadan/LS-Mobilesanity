@@ -24,7 +24,11 @@ public class Additional_info_field_mandatory_LCF  extends DriverScript implement
 	@Test()
 	
 	public void SEM_MDLD_Page() throws Exception, IOException {
-	//"Removed 4 lines here"
+		/*
+		File src = new File("D:\\Harish\\Yellowpage_2\\mobLCFsanity.xls");
+		Workbook wb=Workbook.getWorkbook(src);
+		String url=wb.getSheet(0).getCell(1, 19).getContents();
+		System.out.println(url);*/
 		
 		String url="http://www.sulekha.com/packers-and-movers/chennai";
 		Reporter.log(url);
